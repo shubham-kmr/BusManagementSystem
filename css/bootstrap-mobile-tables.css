@@ -1,0 +1,304 @@
+@media only screen and (max-width: 800px) {
+        /* Force table to not be like tables anymore */
+        #grid table,
+        #grid thead,
+        #grid tfoot,
+        #grid tbody,
+        #grid th,
+        #grid td,
+        #grid tr {
+        display: block;
+        }
+         
+        /* Hide table headers (but not display: none;, for accessibility) */
+        #grid thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        }
+        #grid tfoot tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        } 
+        #grid tr { border: 1px solid #ccc; }
+          
+        #grid td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left:30%;
+        white-space:normal;
+        text-align:left;
+        }
+         
+        #grid td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top:5px;
+        left:5px;
+        width:30%;
+        padding-right:0;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        
+        }
+         
+        /*
+        Label the data
+        */
+        #grid td:before { content: attr(data-title); }
+        }
+@media only screen and (max-width: 800px) {
+        /* Force table to not be like tables anymore */
+        #datadiv1 table,
+        #datadiv1 thead,
+        #datadiv1 tbody,
+        #datadiv1 th,
+        #datadiv1 td,
+        #datadiv1 tr {
+        display: block;
+        }
+
+#datadiv1 tr { border: 1px solid #ccc; }
+          
+        #datadiv1 td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left:30%;
+        white-space:normal;
+        text-align:left;
+        }
+         
+        #datadiv1 td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top:5px;
+        left:5px;
+        width:30%;
+        padding-right:0;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        }
+         
+        /*
+        Label the data
+        */
+        #datadiv1 td:before { content: attr(data-title); }
+        }
+        @media only screen and (max-width: 800px) {
+        /* Force table to not be like tables anymore */
+        #datadiv2 table,
+        #datadiv2 thead,
+        #datadiv2 tbody,
+        #datadiv2 th,
+        #datadiv2 td,
+        #datadiv2 tr {
+        display: block;
+        }
+
+#datadiv2 tr { border: 1px solid #ccc; }
+          
+        #datadiv2 td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left:30%;
+        white-space:normal;
+        text-align:left;
+        }
+         
+        #datadiv2 td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top:5px;
+        left:5px;
+        width:30%;
+        padding-right:0;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        }
+         
+        /*
+        Label the data
+        */
+        #datadiv2 td:before { content: attr(data-title); }
+        }
+@media only screen and (max-width: 800px) {
+        /* Force table to not be like tables anymore */
+        #datadiv3 table,
+        #datadiv3 thead,
+        #datadiv3 tbody,
+        #datadiv3 th,
+        #datadiv3 td,
+        #datadiv3 tr {
+        display: block;
+        }
+
+#datadiv3 tr { border: 1px solid #ccc; }
+          
+        #datadiv3 td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left:30%;
+        white-space:normal;
+        text-align:left;
+        }
+         
+        #datadiv3 td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top:5px;
+        left:5px;
+        width:30%;
+        padding-right:0;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        }
+         
+        /*
+        Label the data
+        */
+        #datadiv3 td:before { content: attr(data-title); }
+        }
+        
+        
+        @media only screen and (max-width: 800px) {
+        /* Force table to not be like tables anymore */
+        #datadiv4 table,
+        #datadiv4 thead,
+        #datadiv4 tbody,
+        #datadiv4 th,
+        #datadiv4 td,
+        #datadiv4 tr {
+        display: block;
+        }
+
+#datadiv4 tr { border: 1px solid #ccc; }
+          
+        #datadiv4 td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left:30%;
+        white-space:normal;
+        text-align:left;
+        }
+         
+        #datadiv4 td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top:5px;
+        left:5px;
+        width:30%;
+        padding-right:0;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        }
+         
+        /*
+        Label the data
+        */
+        #datadiv4 td:before { content: attr(data-title); }
+        }
+        
+        @media only screen and (max-width: 800px) {
+        /* Force table to not be like tables anymore */
+        #datadiv5 table,
+        #datadiv5 thead,
+        #datadiv5 tbody,
+        #datadiv5 th,
+        #datadiv5 td,
+        #datadiv5 tr {
+        display: block;
+        }
+
+#datadiv5 tr { border: 1px solid #ccc; }
+          
+        #datadiv5 td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left:30%;
+        white-space:normal;
+        text-align:left;
+        }
+         
+        #datadiv5 td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top:5px;
+        left:5px;
+        width:30%;
+        padding-right:0;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        }
+         
+        /*
+        Label the data
+        */
+        #datadiv5 td:before { content: attr(data-title); }
+        }
+        
+        @media only screen and (max-width: 800px) {
+        /* Force table to not be like tables anymore */
+        #datadiv6 table,
+        #datadiv6 thead,
+        #datadiv6 tbody,
+        #datadiv6 th,
+        #datadiv6 td,
+        #datadiv6 tr {
+        display: block;
+        }
+
+#datadiv6 tr { border: 1px solid #ccc; }
+          
+        #datadiv6 td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left:30%;
+        white-space:normal;
+        text-align:left;
+        }
+         
+        #datadiv6 td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top:5px;
+        left:5px;
+        width:30%;
+        padding-right:0;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+        }
+         
+        /*
+        Label the data
+        */
+        #datadiv6 td:before { content: attr(data-title); }
+        }
